@@ -1,4 +1,3 @@
-
 html{
   /* background-color: #282c34; */
   font-family: system-ui;
@@ -53,6 +52,8 @@ body {
     /* color: #282c34; */
     color: darkblue;
     text-decoration: none;
+    padding: 0vw 1vw 0vw 1vw;
+    font-size: 1.3vw;
   }
   
   .page__header {
@@ -84,18 +85,18 @@ body {
     }
   }
   
-  .main-content {
-    padding: 0 20pt;
-  }
+  /* .main-content { */
+    /* padding: 0 20pt; */
+  /* } */
   @media screen and (min-width: 700px) {
     .main-content {
-      padding: 0 30px;
+      /* padding: 0 30px; */
     }
   }
   
   .welcome{
     width: 80vw;
-    height:60vh;
+    height:50vh;
     margin-top: 30vh;
   }
 
@@ -106,10 +107,28 @@ body {
     font-size: 5vmax;
   }
 
-  span {
+  h2 {
+    padding-left: 20vw;
+    padding-top: 20vh;
+    font-weight: lighter;
+    font-size: 5vh;
+    margin-top: 0pt;
     color: darkblue;
     font-weight: bolder;
   }
+
+.name {
+    color: darkblue;
+    font-weight: bolder;
+  }
+
+.bold {
+  font-weight: bolder;
+}
+
+.italics {
+  font-style: italic;
+}
 
   .description {
     padding-left: 20vw;
@@ -117,8 +136,24 @@ body {
     font-size: 2vw;
   }
 
+  p{
+    padding-left: 20vw;
+    margin-top: 3vh;
+    font-size: 2vw;
+  }
+
+  table {
+    /* padding-left:20vw; */
+  }
+
+  td {
+    padding: 0vh 5vw 0vh 5vw;
+    font-size: 1.75vw;
+  }
+
   .experience {
-    width: 80vw;
-    background-color: white;
+    width: 100vw;
+    height: 70vh;
+    /* background-color: #F0F8FF; */
   }
   
