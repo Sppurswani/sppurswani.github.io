@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Saloni Purswani</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <script src="https://unpkg.com/scrollnav@3.0.1/dist/scrollnav.min.umd.js"></script>
+
+    <header class="page__header" role="banner">
+        <h1 class="page__title"></h1>
+    </header>
+    <div class="main" role="main">
+    
+        <div class="welcome">
+        <h1>Hi, I'm <span>Saloni Purswani.</span></h1>
+        <p class="description">I'm a computer science student at Drexel University and an aspiring software engineer. I love to solve problems (whether its technical, math-related or fixing a formation to its choreography). I'm a curious gal excited to start her career in tech.☀️</p>
+        </div>
+            <div class="main-content">
+                
+                <h2>About Me</h2>
+                <p>Hi I'm Saloni!</p>
+                <div class="experience">
+                    <h2>Experience</h2>
+                </div>
+                <h2>Projects</h2>
+                <h2>Hobbies</h2>
+            </div>
+    </div>
+
+    <script>
+        const content = document.querySelector('.main-content');
+        const insertTarget = document.querySelector('.page__header');
+        scrollnav.init(content, { 
+            debug: false,
+            insertTarget: insertTarget,
+            insertLocation: 'append'
+        });
+    </script>
+</body>
+</html>
+
