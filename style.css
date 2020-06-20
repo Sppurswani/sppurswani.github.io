@@ -53,7 +53,7 @@ body {
     color: darkblue;
     text-decoration: none;
     padding: 0vw 1vw 0vw 1vw;
-    font-size: 1.3vw;
+    font-size: 2vh;
   }
   
   .page__header {
@@ -133,13 +133,13 @@ body {
   .description {
     padding-left: 20vw;
     margin-top: 3vh;
-    font-size: 2vw;
+    font-size: 2vh;
   }
 
   p{
     padding-left: 20vw;
     margin-top: 3vh;
-    font-size: 2vw;
+    font-size: 3vh;
   }
 
   table {
@@ -148,7 +148,7 @@ body {
 
   td {
     padding: 0vh 5vw 0vh 5vw;
-    font-size: 1.75vw;
+    font-size: 2vh;
   }
 
   .experience {
