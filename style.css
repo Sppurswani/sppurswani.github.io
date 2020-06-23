@@ -8,15 +8,40 @@ body {
     margin: 0;
     padding: 0;
   }
+button{
+  display: none;
+}
   
   @media screen and (min-width: 800px) {
     .scroll-nav {
+      /* display: block; */
       float: right;
     }
   }
   @media screen and (max-width: 799px) {
     .scroll-nav {
+      /* display: none; */
       text-align: center;
+    }
+    button{
+      display: block;
+      padding: .5vw;
+      font-size: 3vh;
+      outline: none;
+      cursor: pointer;
+      float: right;
+      background-color: #B0C4DE;
+      border: none;
+      color: darkblue;
+    }
+
+    ol{
+      flex-direction: column;
+      display: flex;
+    }
+
+    a{
+      display: block;
     }
   }
   
@@ -32,7 +57,7 @@ body {
   }
   @media screen and (max-width: 799px) {
     .scroll-nav__list {
-      display: inline-block;
+      /* display: inline-block; */
     }
   }
   
@@ -45,7 +70,7 @@ body {
   
   .scroll-nav__item--active {
     font-weight: 600;
-    border-bottom-color: white;
+    /* border-bottom-color: white; */
   }
   
   .scroll-nav__link {
@@ -108,7 +133,7 @@ body {
   }
 
   h2 {
-    padding-left: 20vw;
+    padding-left: 10vw;
     padding-top: 20vh;
     font-weight: lighter;
     font-size: 5vh;
@@ -132,23 +157,30 @@ body {
 
   .description {
     padding-left: 20vw;
-    margin-top: 3vh;
-    font-size: 2vh;
+    margin-top: 2.75vh;
+    font-size: 2.75vh;
   }
 
   p{
-    padding-left: 20vw;
+    padding-left: 13vw;
     margin-top: 3vh;
-    font-size: 3vh;
+    font-size: 2.75vh;
   }
 
   table {
-    /* padding-left:20vw; */
+    display: flex;
+    justify-content: center;
+  }
+
+  tbody{
+    margin: 1vh 0vw 1vh 0vw;
+    vertical-align: top;
   }
 
   td {
-    padding: 0vh 5vw 0vh 5vw;
-    font-size: 2vh;
+    padding: 1vh 6vw 1vh 6vw;
+    font-size: 2.75vh;
+    width: 50%;
   }
 
   .experience {
