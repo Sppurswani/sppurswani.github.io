@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>Saloni Purswani</title>
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
     
@@ -17,30 +18,157 @@
     
         <div class="welcome">
         <h1>Hi, I'm <span class="name">Saloni Purswani.</span></h1>
-        <p class="description">I'm a computer science student at Drexel University and an aspiring software engineer. I love to solve problems (whether they're computer & math related or fixing a formation to its choreography). I'm a curious gal excited to start her career in tech.☀️</p>
+        <p class="description">
+            I'm a computer science student at Drexel University and an aspiring software engineer. 
+            I love to create software that addresses today’s problems and promotes ease & simplicity. 
+            I’m thrilled to  start my career in tech very soon.☀️
+        </p>
         </div>
             <div class="main-content">
-                
-                <h2>About Me</h2>
-                <p>Hi I'm Saloni!</p>
-                <div class="experience">
-                    <h2>Experience</h2>
-                    <div>
-                        <table>
-                            <tr>
-                                <td>Dell Boomi <span class="bold">Runtime Team</span> <br> <span class="italics">Software Engineer Co-op</span></td>
-                                <td>Dell Boomi <span class="bold">Emerging Technology Team</span> <br> <span class="italics">Product Developer Co-op</span></td>
-                            </tr>
-                        </table>
+                <div class="section">
+                <h2 id="aboutme">About Me</h2>
+                <div class="row">
+                    <div class="column">
+                        <p class="about">
+                                Hello! My name is Saloni Purswani. I’m an aspiring software engineer, and a senior at <a href="https://drexel.edu/" class="link" target="_blank">Drexel University</a> pursuing my Bachelors in Computer Science. I enjoy learning about and building creative software that ultimately makes a task feasible or easier. 
+                                <br>
+                                <br>
+                                Through my academics, my focus has been on Artificial Intelligence and Human-Computer Interaction.  I’m fascinated by AI, ML and other emerging technologies and how they have created room for engineers to innovate. 
+                                HCI personally draws me in because I believe user experience is more important than it ever has been, as the look & feel and performance can mean all the difference in an app's success. 
+                                To focus on my two areas of interest, I’m currently working to learn and apply cloud technologies to applications and front-end frameworks to new projects.
+                            <br><br>
+                            <span class="tools">Fun fact: </span> Right before this picture was taken, I was awarded Valedictorian of my High School class! (My only solo photo from that night ended up with my medal flipped backwards 🙃)
+                        </p>
+                    </div>
+                    <div class="column">
+                        <img src="my-pic.jpg" class="mypic">
                     </div>
                 </div>
-                <div class="experience">
-                    <h2>Projects</h2>
-                </div> 
-                <div class="experience">
-                    <h2>Hobbies</h2>
                 </div>
-                <h2>Contact</h2>
+                <div class="section">
+                    <h2 id="experience">Experience</h2>
+                    <div class="row">
+                        <div class="column">
+                            <p class="jobexp">Dell Boomi <span class="bold">Runtime Team</span> <br> <span class="italics">Software Engineer Co-op</span>
+                                <br><span class="time">April - Sept 2019</span>
+                            </p>
+                            <ul class="jobdescrip">
+                                <li>Designed and developed cloud migration utility, alongside a team of 10 engineers, to migrate 1,000’s of Boomi clients’ processes and data to a newly hosted Cloud in AWS</li>
+                                <br><li>Implemented asynchronous REST API utility in Java for lift & shift of process data as part of cloud migration initiative</li>
+                                <br><li>Actively participated in Agile Scrum meetings, as a member of the team focused on the runtime engine of the Integration platform</li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <p class="jobexp">Dell Boomi <span class="bold">Emerging Technology Team</span> <br> <span class="italics">Product Developer Co-op</span>
+                                <br><span class="time">April - Sept 2018</span>
+                            </p>
+                            <ul class="jobdescrip">
+                                <li>Implemented prototype for ​IoT Integration solution to optimize fuel usage for a overseas shipping company</li>
+                                <ul>
+                                    <li>Developed a listener integration process utilizing MQTT to receive telemetry data every 30 seconds</li>
+                                    <li>Pitched to C-executives of Alleantia (Dell Boomi IoT partner)</li>
+                                </ul>
+                                <br><li>Architected and developed Java application for facial recognition​ kiosk POC, using AWS services including Lambda, S3, Rekognition and DynamoDB</li>
+                                <ul>
+                                    <li>Created prototype Boomi platform functionality for businesses to provide personalized experiences with facial recognition systems</li>
+                                </ul>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="section">
+                    <h2 id="projects">Projects</h2>
+                    <div class="row">
+                        <div class="column">
+                            <p class="jobexp">Predicting COVID Deaths using Regression</p>
+                            <img src="dl_architecture.jpg" class="projectpics">
+                            <p class="projectdes">A model that predicts a country’s death count given the number of cases, tests, and various other factors including the population density and stringency index. 
+                                The training process includes a neural network with two hidden layers. <br><span class="tools"> Python + Pytorch + Matlab</span></p>
+                        </div>
+                        <div class="column">
+                            <p class="jobexp">Performance Planner</p>
+                            <img src="performance_planner.jpg" class="projectpics">
+                            <p class="projectdes">A web app that allows dance groups to organize performance related data such as music tracks, videos, program, and costumes. 
+                                Includes a timeline for dance pieces and a costume log to track costumes usage. <br><span class="tools"> HTML + CSS + JS + Flask + SQL</span></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                            <div class="column">
+                                <p class="jobexp">TRUE: Trip Report Updater Engine</p>
+                                <img src="true.jpg" class="projectpics">
+                                <p class="projectdes">A web/mobile application to interface specific Salesforce capabilities (such as creating and updating opportunities, 
+                                    contacts and accounts) for System Engineers at Dell EMC. 
+                                    <br><span class="tools">HTML + CSS + Boomi Flow + Salesforce API</span></p>
+                            </div>
+                            <div class="column">
+                                <p class="jobexp">AR Router Visualization App</p>
+                                <img src="router_visualization.jpg" class="projectpics">
+                                <p class="projectdes">Allows users to retrieve real-time router information (including devices connected, internet speed and strength) 
+                                    through an augmented reality based  iOS app. 
+                                    <br><span class="tools">C# + Unity + Firebase + Bash</span></p>
+                            </div>
+                        </div>
+                </div> 
+                <div class="section">
+                    <h2 id="organizations">Organizations</h2>
+                    <div class="row">
+                    <p class="interests">
+                            When I’m not working on software or attending class, my time at Drexel is usually spent pursing my interests in two organizations: <a href="http://drexelwics.hosting.acm.org/" class="link" target="_blank">Drexel Women in Computing Society</a> (WiCS) and <a href="https://www.facebook.com/NaachAtPenn/" class="link" target="_blank">PENNaach</a>. 
+                            I have been involved with WiCS since 2016 and currently am the VP of Public Relations for the 2020-2021 school year. 
+                            WiCS is a strong, empowering community that celebrates women in tech, and offers the opportunity for students to make connections and learn about pursuing their interests in the field. 
+                            WiCS’ mission speaks to me and I’m glad help other girls like me, in navigating the tech industry.
+                            <br><br>
+                            Since 2017, I have been a dancer and choreographer on PENNaach, a female South-Asian fusion dance team.
+                            Every year in February, my team and I put on a themed show with about 10 performances of various styles. 
+                            This platform has not only provided me the ability to express myself through dance, 
+                            but has also given me my greatest friends and the opportunity to evolve personally. 
+                            Through PENNaach, I can be creative with my choreography, lighting, music and costumes, and also learn what it means to oversee a project from start to finish. 
+                            Below are a few pictures from our last show and photoshoot.
+                            Check out one of our most dazzling performances <a href="https://www.youtube.com/watch?v=ts3ZbOy8iy8" class="link" target="_blank">here</a>!
+                            <br><br>
+                    </p>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <img src="naach-group.jpg" class="naachpics">
+                        </div>
+                        <div class="column">
+                            <img src="me-naach.jpg" class="naachpics">       
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <img src="naach-divo.jpg" class="naachpics">
+                        </div>
+                        <div class="column">
+                            <img src="naach-finale.jpg" class="naachpics">
+                        </div>
+                    </div>
+                </div>
+                <div class="contact">
+                    <h2 id="contact">Contact</h2>
+                    <p class="contactinfo">
+                        <span class="getintouch">Let's get in touch.</span>
+                        <br>
+                        Email me at sppurswani@gmail.com or click the icons below and reach out. 😊
+                        <!-- <br> -->
+                        <br><br>
+                        <div class="allicons">
+                            <a href="mailto:sppurswani@gmail.com" class="icons">
+                                <img src="email.jpg" type="button">
+                            </a>
+                            <a href="https://www.linkedin.com/in/saloni-purswani-008a95b0/" class="icons">
+                                <img src="linkedin.jpg" type="button">
+                            </a>
+                            <a href="https://www.github.com/Sppurswani" class="icons">
+                                <img src="github.jpg" type="button">
+                            </a>
+                            <a href="https://www.instagram.com/saloni.purswani/" class="icons">
+                                <img src="instagram.png" type="button">
+                            </a>
+                        </div>
+                    </p>
+                </div>
             </div>
     </div>
 
@@ -73,7 +201,6 @@
                 document.getElementById("hamburger").innerText = "☰";
                 document.querySelector('.scroll-nav').style.display = "none";
             }
-            console.log("width = ", window.innerWidth);
             if (window.innerWidth > 799){
                 document.querySelector('.scroll-nav').style.display = "block";
             }
